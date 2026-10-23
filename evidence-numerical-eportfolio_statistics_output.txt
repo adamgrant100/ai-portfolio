@@ -1,0 +1,29 @@
+AGE SUMMARY
+Mean age: 26.51429 
+Median age: 27 
+Mode age: 26 
+
+DIASTOLIC BLOOD PRESSURE BY DIABETES STATUS
+Yes  No 
+ 83  82 
+
+Wilcoxon rank-sum test:
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  dbp by diabetes_group
+W = 3804.5, p-value = 0.7999
+alternative hypothesis: true location shift is not equal to 0
+
+
+SYSTOLIC BLOOD PRESSURE BY OCCUPATIONAL GROUP
+  occupation_group      sbp
+1         GOVT JOB 129.3833
+2      PRIVATE JOB 126.3469
+3         BUSINESS 127.8571
+4           OTHERS 127.0192
+
+One-way ANOVA:
+                  Df Sum Sq Mean Sq F value Pr(>F)
+occupation_group   3    285    94.9   0.233  0.873
+Residuals        206  83800   406.8               

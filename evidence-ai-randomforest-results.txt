@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     credit_default-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    30000
+Attributes:   24
+              LIMIT_BAL
+              SEX
+              EDUCATION
+              MARRIAGE
+              AGE
+              PAY_0
+              PAY_2
+              PAY_3
+              PAY_4
+              PAY_5
+              PAY_6
+              BILL_AMT1
+              BILL_AMT2
+              BILL_AMT3
+              BILL_AMT4
+              BILL_AMT5
+              BILL_AMT6
+              PAY_AMT1
+              PAY_AMT2
+              PAY_AMT3
+              PAY_AMT4
+              PAY_AMT5
+              PAY_AMT6
+              default_payment_next_month
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 21.31 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       24499               81.6633 %
+Incorrectly Classified Instances      5501               18.3367 %
+Kappa statistic                          0.371 
+Mean absolute error                      0.2713
+Root mean squared error                  0.3711
+Relative absolute error                 78.7424 %
+Root relative squared error             89.4127 %
+Total Number of Instances            30000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.943    0.629    0.841      0.943    0.889      0.392    0.766     0.902     0
+                 0.371    0.057    0.650      0.371    0.472      0.392    0.766     0.537     1
+Weighted Avg.    0.817    0.503    0.799      0.817    0.797      0.392    0.766     0.822     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 22040  1324 |     a = 0
+  4177  2459 |     b = 1
