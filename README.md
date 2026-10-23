@@ -26,8 +26,6 @@ You can also open index.html directly to browse the local files.
 
 I’ve brought together concise summaries of my coursework, selected scripts and model outputs, and retrospective reflections. Full essays, reports and presentation transcripts are not included in this public portfolio. I retain the complete assignments privately. The coursework results come from the original experiments; moving them to this site does not represent a new run. Each module page explains what I have available and where there are gaps.
 
-My original WEKA screenshots are linked from a private module repository, so those links require access. University references may also require a university login.
-
 Intelligent Agents is my current module. I’ll add my work and reflection as I progress through it.
 
 These projects use synthetic scenarios and datasets to explore ideas beyond my assessed coursework. The demos, source code, validation tests and method notes are available for each project.
@@ -38,7 +36,7 @@ Upload the contents of this directory to the root of the `main` branch in `adamg
 
 Portfolio: https://adamgrant100.github.io/ai-portfolio/. GitHub Pages deploys updates from the main branch.
 
-All publication files sit at the repository root. Internal links and assets use relative paths so the site can run under the `/ai-portfolio/` project path. Source-repository links remain subject to those repositories’ access settings.
+All publication files sit at the repository root. Internal links and assets use relative paths so the site can run under the `/ai-portfolio/` project path.
 
 ## Independent experiments
 
